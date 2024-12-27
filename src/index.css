@@ -1,0 +1,84 @@
+@font-face {
+  font-family: soda;
+  src: url(./assets/Bake\ Soda.otf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #0f1f32;
+  color: white;
+  padding: 8px;
+  /* font-family: soda; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+  padding: 10px;
+  /* display:flex; */
+
+}
+
+.card {
+  background-color: #ffffff2f;
+  padding: 18px 0px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.centerdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.barContainer {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  padding: 4px;
+
+}
+
+.value {
+  /* font-size: 10px; */
+  padding: 8px;
+  border: none;
+  outline: none;
+  width: 50%;
+  text-align: center;
+  border-radius: 300px 0px 0px 200px;
+}
+.value:disabled{
+  background: #a2d5ed;
+}
+.select {
+  padding: 8px;
+  border: none;
+  outline: none;
+  width: 50%;
+  text-align: center;
+  border-radius: 0px 200px 300px 0px;
+
+}
+
+.buttoncontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -8px;
+}
+
+.swbn {
+  padding: 8px;
+  background-color: #0095ff;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border-radius: 10px;
+}
